@@ -1,0 +1,48 @@
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-luma loadedFlowerImage loadedMaskImage  lumaFlowerImage
+save  lumaFlowerImage saveLumaFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-value loadedFlowerImage loadedMaskImage  valueFlowerImage
+save  valueFlowerImage saveValueFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-intensity loadedFlowerImage loadedMaskImage  intensityFlowerImage
+save  intensityFlowerImage saveIntensityFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+blur loadedFlowerImage loadedMaskImage  blurFlowerImage
+save  blurFlowerImage saveBlurFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+sharpen loadedFlowerImage loadedMaskImage sharpenFlowerImage
+save  sharpenFlowerImage saveSharpenFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+sepia loadedFlowerImage loadedMaskImage  sepiaFlowerImage
+save  sepiaFlowerImage saveSepiaFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale loadedFlowerImage loadedMaskImage  greyscaleFlowerImage
+save  greyscaleFlowerImage saveGreyscaleFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+brighten 100 loadedFlowerImage loadedMaskImage  brightenFlowerImage
+save  greyscaleFlowerImage saveBrightenFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+darken 100 loadedFlowerImage loadedMaskImage  darkenFlowerImage
+save  darkenFlowerImage saveDarkenFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-blue loadedFlowerImage loadedMaskImage  greyscaleBlueFlowerImage
+save  greyscaleBlueFlowerImage saveGreyscaleBlueFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-red loadedFlowerImage loadedMaskImage  greyscaleRedFlowerImage
+save  greyscaleRedFlowerImage saveGreyscaleRedFlowerImage.png
+load res/flower.png loadedFlowerImage
+load res/blackSquare.png loadedMaskImage
+greyscale-green loadedFlowerImage loadedMaskImage  greyscaleGreenFlowerImage
+save  greyscaleGreenFlowerImage saveGreyscaleGreenFlowerImage.png
